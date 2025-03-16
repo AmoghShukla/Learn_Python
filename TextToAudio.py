@@ -2,7 +2,7 @@ from gtts import gTTS
 from IPython.display import Audio
 import shutil
 
-# Text content for audio
+
 text_content = """
 Deep Learning for Image Recognition.
 Image recognition in deep learning is the process where neural networks analyze images to classify, detect objects, or segment regions.
