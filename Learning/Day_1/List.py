@@ -18,3 +18,11 @@ lst1 = [1, 2, 3]
 lst2 = [4, 5, 6]
 lst1.extend(lst2)
 print(lst1)  # Output: [1, 2, 3, 4, 5, 6]
+
+Empty_List = [40, 70, 80, 90, 77]
+num = sum(Empty_List)
+# for i in Empty_List:
+#     num += i
+
+avg = num/len(Empty_List)
+print("Average of List is:", avg)
