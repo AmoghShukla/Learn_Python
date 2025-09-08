@@ -8,3 +8,6 @@ print(my_tuple)
 # Define a single value tuple
 a = (5,)
 print(type(a))  # Output: <class 'tuple'>
+
+a.insert(0, 6)
+print(a) #AttributeError: 'tuple' object has no attribute 'insert'
