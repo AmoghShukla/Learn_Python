@@ -68,6 +68,8 @@ if voter_id == "yes":
 else:
     print("You are not eligible to vote, You dont have the Voter Id Card.")
 
+    
+
 # Supermarket Discount Example
 # This example calculates the total bill amount after applying discounts based on the membership category of the Customer.
 print("------:Welcome to Supermarket:------")
