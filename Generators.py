@@ -9,3 +9,5 @@ for f in fib():
         break
     print(f)
 
+# Here, Generators.py defines a generator function `fib()` that yields Fibonacci numbers indefinitely. 
+# The for loop iterates over the generated Fibonacci numbers and prints them until a number greater than 100 is encountered, at which point the loop breaks.
