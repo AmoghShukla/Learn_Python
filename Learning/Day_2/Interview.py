@@ -44,3 +44,20 @@ def Reverse_string(string):
     return reversed_string
 str = input("Enter the String : ")
 print(Reverse_string(str))
+
+# Q5) Find a Duplicate Element in a list without using built-in functions
+
+def Duplicate(list):
+    visited = []
+    duplicates = []
+    for i in list:
+        if i in visited and i not in duplicates:
+            duplicates.append(i)
+        elif i not in visited:
+            visited.append(i)
+        else:
+            continue
+    return duplicates
+
+list1 = ['a','b','c','a','b','c','a','b','d']
+print(Duplicate(list1))
