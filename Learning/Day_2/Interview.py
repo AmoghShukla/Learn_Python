@@ -61,3 +61,16 @@ def Duplicate(list):
 
 list1 = ['a','b','c','a','b','c','a','b','d']
 print(Duplicate(list1))
+
+
+# Q6) find fibbionacci series up to n terms
+
+def fibonacci(n):
+    a, b = 0, 1 
+    series = []
+    for i in range(n):
+        series.append(a)
+        a , b= b, a+b
+    return series
+n = int(input("Enter the number of terms: "))
+print(fibonacci(n))

@@ -44,5 +44,3 @@ def is_palindrome(num):
 n = input("Enter an input to check if it's a palindrome: ")
 print(is_palindrome(n))
 
-
-
