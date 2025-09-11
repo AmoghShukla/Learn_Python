@@ -89,6 +89,10 @@ class C(A):
     def Son(self):
         print("Son is working")
 
+c1 = B()
+c1.Father()
+c1.Mother()
+
 c2 = C()
 c2.Father()
 c2.Son()
