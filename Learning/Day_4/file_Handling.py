@@ -48,3 +48,6 @@ with open("example.txt", "r") as file:
     print("----------------")
     for line in content:
         print(line.strip())
+
+
+# This is the last line
