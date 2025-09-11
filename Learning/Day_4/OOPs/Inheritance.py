@@ -96,3 +96,32 @@ c1.Mother()
 c2 = C()
 c2.Father()
 c2.Son()
+
+# Hybrid Inheritance 
+# Hybrid inheritance is a combination of two or more types of inheritance.
+
+class A:
+    def AkaBaccha(self):
+        print("AkaBaccha is working")
+
+class B(A):
+    def BkaBaccha(self):
+        print("BkaBaccha is working")
+class C(A):
+    def CkaBaccha(self):
+        print("CkaBaccha is working")
+class D(B, C):
+    def DkaBaccha(self):
+        print("DkaBaccha is working")
+d = D()
+d.AkaBaccha()
+d.BkaBaccha()
+d.CkaBaccha()
+d.DkaBaccha()
+
+c = C()
+c.AkaBaccha()
+c.CkaBaccha()
+
+
+
