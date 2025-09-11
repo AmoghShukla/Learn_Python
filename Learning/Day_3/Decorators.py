@@ -156,7 +156,7 @@
 
 
 # Create a Login Authentication System using decorators
-from database_main import Database as database
+database = {}
 
 def Auth(func):
     def wrapper(username, password):

@@ -3,29 +3,33 @@
 # This is useful for I/O-bound tasks, such as web scraping, file handling, or network operations, 
 # where threads can run in the background while waiting for I/O operations to complete.
 # Python's threading module provides a way to create and manage threads.
+
+
+# Q) Write a program to print "Amogh" and "Shukla" 3 times each using threading
+
 from threading import Thread
 from time import sleep
 
-# class A(Thread):
-#     def run(self):
-#         for i in range(3):
-#             print("Amogh")
-#             sleep(2)
+class A(Thread):
+    def run(self):
+        for i in range(3):
+            print("Amogh")
+            sleep(2)
 
-# class B(Thread):
-#     def run(self):
-#         for i in range(3):
-#             print("shukla")
-#             sleep(2)
+class B(Thread):
+    def run(self):
+        for i in range(3):
+            print("shukla")
+            sleep(2)
 
-# t1 = A()
-# t2 = B()
+t1 = A()
+t2 = B()
 
-# t1.start()
-# t2.start()
+t1.start()
+t2.start()
 
 
-# Example 2
+# Q) Write a program to print numbers and letters using threading
 
 from threading import Thread
 import time
@@ -49,7 +53,7 @@ t1.start()
 t2.start()
 
 # Wait for both threads to complete
-# t1.join() # join makes the main program wait for the thread to complete
-# t2.join() # join makes the main program wait for the thread to complete
+t1.join() # join makes the main program wait for the thread to complete
+t2.join() # join makes the main program wait for the thread to complete
 
 print("Finished execution")
