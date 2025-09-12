@@ -1,0 +1,17 @@
+It is the foundation of Computer Science and Programming, the way data is organised, stored, processed to solve Problems Efficiently
+
+Data Structures : How Data is Stored in Memory
+Algorithm : Step by Step Procedure to Solve a Problem using the Data
+Time Complexity : Time taken by a Program to be executed or the Number of Steps involved in Solving a processed
+Space Complexity : Total Amount of Space taken to Execute a Program
+
+Types of Data Structures :-
+1) Primitive Data Structures : Built in Simple Type - int, float, boolean 
+2) Non - Primitive Data Structures : Linear DS, Non - Linear DS, Hash based DS
+
+-:Algorithm:-
+1) Searching : Linear Search, Binary Search
+2) Sorting : Bubble Sort, Selection Sort, Quick Sort
+
+
+A Searching algorithm is used to find the location of a Specific ELement (target) in collection of Data.

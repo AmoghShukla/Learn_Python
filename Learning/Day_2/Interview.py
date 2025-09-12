@@ -74,3 +74,9 @@ def fibonacci(n):
     return series
 n = int(input("Enter the number of terms: "))
 print(fibonacci(n))
+
+# Arrays vs Lists in Python
+# Arrays are used to store multiple items of the same data type, while lists can store items of different data types.
+# Arrays are more memory efficient and faster for numerical operations, while lists are more flexible and easier to use for general purposes.
+# Arrays are part of the array module, while lists are built-in data structures in Python.
+# Arrays support mathematical operations like addition, subtraction, multiplication, and division, while lists do not.
