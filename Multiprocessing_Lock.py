@@ -9,6 +9,7 @@ def deposit_funds(Balance,Lock):
         Balance.value = Balance.value + 1
         Lock.release()
 
+# Withdraw Funds
 def withdraw_funds(Balance,Lock):
     for i in range(100):
         time.sleep(0.01)
@@ -29,5 +30,6 @@ if __name__ == '__main__':
     w.join()
 
     print(Balance.value)
+
 
 
