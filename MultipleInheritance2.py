@@ -1,4 +1,5 @@
 class Engineering:
+    
     def Curriculum(self):
         print("B.Tech AI&DS")
         print("B.Tech CS")
@@ -6,6 +7,7 @@ class Engineering:
         print("B.Tech Mechatronics")
 
 class Business:
+    
     def Departments(self):
         print("BBA")
         print("MBA")
@@ -26,3 +28,4 @@ Stu.Edu()
 Stu.Names()
 Stu.Departments()
 Stu.Curriculum()
+
