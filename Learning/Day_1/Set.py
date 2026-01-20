@@ -19,8 +19,6 @@ print(x)
 x.pop()
 print(x)
 
-x.pop()
-print(x)
 
 x.pop()
 print(x)
